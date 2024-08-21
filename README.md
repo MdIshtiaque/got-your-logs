@@ -15,18 +15,10 @@ To install the `techfy/got-your-logs` package, follow these steps:
 
 ### Step 1: Require the Package
 
-Add the package repository to your `composer.json`:
+You can install it using Composer:
 
-```json
-"repositories": [
-    {
-        "type": "vcs",
-        "url": "https://github.com/MdIshtiaque/got-your-logs"
-    }
-],
-"require": {
-    "techfy/got-your-logs": "dev-main"
-}
+```bash
+composer require techfy/got-your-logs
 ```
 
 Then run:
