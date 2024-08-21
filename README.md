@@ -21,7 +21,7 @@ Add the package repository to your `composer.json`:
 "repositories": [
     {
         "type": "vcs",
-        "url": "https://github.com/yourusername/got-your-logs"
+        "url": "https://github.com/MdIshtiaque/got-your-logs"
     }
 ],
 "require": {
