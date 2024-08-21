@@ -15,7 +15,5 @@
     ],
     "minimum-stability": "dev",
     "prefer-stable": true,
-    "require": {
-        "techfy/got-your-logs": "dev-main"
-    }
+    "require": {}
 }
