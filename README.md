@@ -68,6 +68,8 @@ This will create a `config/gotyourlogs.php` file in your Laravel project.
 You can log any action or event in your Laravel application using the `GotYourLogs` facade. Here's an example of how to log a user login action:
 
 ```php
+use GotYourLogs;
+
 GotYourLogs::log('UserLogin', [
     'user_id' => auth()->user()->id,
     'status' => 'success',
