@@ -21,12 +21,6 @@ You can install it using Composer:
 composer require techfy/got-your-logs
 ```
 
-Then run:
-
-```bash
-composer update
-```
-
 ### Step 2: Register the Service Provider and Facade
 
 After installation, register the service provider and facade in your `config/app.php` file:
