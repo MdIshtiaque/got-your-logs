@@ -15,13 +15,7 @@ To install the `techfy/got-your-logs` package, follow these steps:
 
 ### Step 1: Require the Package
 
-If your package is hosted on Packagist, you can install it using Composer:
-
-```bash
-composer require techfy/got-your-logs
-```
-
-If you are developing locally, add the package repository to your `composer.json`:
+Add the package repository to your `composer.json`:
 
 ```json
 "repositories": [
